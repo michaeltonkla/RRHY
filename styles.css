@@ -1,0 +1,57 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Container style */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.title {
+    font-size: 36px;
+    color: #ff1493;
+    margin-bottom: 20px;
+}
+
+/* Message styling */
+.message {
+    font-size: 24px;
+    color: #4b0082;
+    margin-bottom: 40px;
+}
+
+/* Heart animation */
+.heart {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 0% 40%, 0% 100%, 50% 60%, 100% 100%, 100% 40%);
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+/* Button styling */
+button {
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff69b4;
+}
